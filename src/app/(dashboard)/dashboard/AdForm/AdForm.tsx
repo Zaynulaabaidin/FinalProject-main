@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
+import { AppRouterInstance } from "next/dist/shared/lib/app-router-context.shared-runtime";
 import { generateAdCopy, BrandInfo } from "@/lib/adgen";
 
 export default function AdForm() {
@@ -14,7 +15,7 @@ export default function AdForm() {
     socials: ""
   });
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
     const adCopy = generateAdCopy(prompt, brand);
@@ -29,9 +30,10 @@ export default function AdForm() {
       socials: brand.socials || ""
     });
 
-    // Create a type-safe URL with query parameters
-    const resultUrl = `/result?${searchParams.toString()}` as const;
-    router.push(resultUrl as Parameters<typeof router.push>[0]);
+    // Create URL with query parameters
+    const resultUrl = `/result?${searchParams.toString()}`;
+    // Use the router's push method with the correct type
+    (router as AppRouterInstance).push(resultUrl);
   };
 
   return (
