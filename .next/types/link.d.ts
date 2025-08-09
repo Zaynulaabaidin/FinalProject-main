@@ -40,9 +40,9 @@ declare namespace __next_route_internal_types__ {
     | `/verify-email`
     | `/dashboard`
     | `/dashboard/billing`
-    | `/dashboard/marketplace`
     | `/dashboard/teams`
     | `/dashboard/teams/create`
+    | `/dashboard/marketplace`
     | `/privacy`
     | `/terms`
     | `/`

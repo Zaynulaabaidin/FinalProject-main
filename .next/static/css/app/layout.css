@@ -2121,9 +2121,6 @@ video {
 .whitespace-nowrap {
   white-space: nowrap;
 }
-.text-balance {
-  text-wrap: balance;
-}
 .break-words {
   overflow-wrap: break-word;
 }
@@ -2499,9 +2496,6 @@ video {
 }
 .text-right {
   text-align: right;
-}
-.text-justify {
-  text-align: justify;
 }
 .align-middle {
   vertical-align: middle;
@@ -3157,9 +3151,6 @@ video {
   font-size: var(--heroui-font-size-tiny);
   line-height: var(--heroui-line-height-tiny);
 }
-.text-balance {
-    text-wrap: balance;
-  }
 
 :root {
   --foreground-rgb: 0, 0, 0;

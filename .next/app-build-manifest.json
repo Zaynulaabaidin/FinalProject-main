@@ -26,10 +26,10 @@
       "static/chunks/main-app.js",
       "static/chunks/app/(auth)/layout.js"
     ],
-    "/(auth)/sign-up/page": [
+    "/(auth)/sign-in/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/(auth)/sign-up/page.js"
+      "static/chunks/app/(auth)/sign-in/page.js"
     ],
     "/(dashboard)/layout": [
       "static/chunks/webpack.js",
@@ -41,15 +41,10 @@
       "static/chunks/main-app.js",
       "static/chunks/app/(dashboard)/dashboard/page.js"
     ],
-    "/(auth)/sso/google/route": [
+    "/(auth)/sign-up/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/(auth)/sso/google/route.js"
-    ],
-    "/(auth)/sso/google/callback/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(auth)/sso/google/callback/page.js"
+      "static/chunks/app/(auth)/sign-up/page.js"
     ]
   }
 }
