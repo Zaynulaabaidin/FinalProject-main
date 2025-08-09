@@ -2121,6 +2121,9 @@ video {
 .whitespace-nowrap {
   white-space: nowrap;
 }
+.text-balance {
+  text-wrap: balance;
+}
 .break-words {
   overflow-wrap: break-word;
 }
@@ -2226,9 +2229,17 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(243 244 246 / var(--tw-bg-opacity, 1));
 }
+.bg-gray-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 231 235 / var(--tw-bg-opacity, 1));
+}
 .bg-green-100 {
   --tw-bg-opacity: 1;
   background-color: rgb(220 252 231 / var(--tw-bg-opacity, 1));
+}
+.bg-green-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(34 197 94 / var(--tw-bg-opacity, 1));
 }
 .bg-muted {
   background-color: hsl(var(--muted));
@@ -2488,6 +2499,9 @@ video {
 }
 .text-right {
   text-align: right;
+}
+.text-justify {
+  text-align: justify;
 }
 .align-middle {
   vertical-align: middle;
@@ -3143,6 +3157,9 @@ video {
   font-size: var(--heroui-font-size-tiny);
   line-height: var(--heroui-line-height-tiny);
 }
+.text-balance {
+    text-wrap: balance;
+  }
 
 :root {
   --foreground-rgb: 0, 0, 0;

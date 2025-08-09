@@ -13,12 +13,22 @@
         "app/(dashboard)/dashboard/page": {
           "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Czainulaabaidin%5C%5CDownloads%5C%5CFinalProject-main%5C%5CFinalProject-main%5C%5Csrc%5C%5Capp%5C%5C(auth)%5C%5Cresend-verification.action.ts%22%2C%5B%7B%22id%22%3A%227f026493396a6d366c923f57787d78a52e9d1129f7%22%2C%22exportedName%22%3A%22resendVerificationAction%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5Czainulaabaidin%5C%5CDownloads%5C%5CFinalProject-main%5C%5CFinalProject-main%5C%5Csrc%5C%5Cactions%5C%5Csign-out.action.ts%22%2C%5B%7B%22id%22%3A%227f1aab9eabafd5539795af8f3acd02d522feb58563%22%2C%22exportedName%22%3A%22signOutAction%22%7D%5D%5D%5D&__client_imported__=true!",
           "async": true
+        },
+        "app/_not-found/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Czainulaabaidin%5C%5CDownloads%5C%5CFinalProject-main%5C%5CFinalProject-main%5C%5Csrc%5C%5Capp%5C%5C(auth)%5C%5Cresend-verification.action.ts%22%2C%5B%7B%22id%22%3A%227f026493396a6d366c923f57787d78a52e9d1129f7%22%2C%22exportedName%22%3A%22resendVerificationAction%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": true
+        },
+        "app/(auth)/sso/google/callback/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Czainulaabaidin%5C%5CDownloads%5C%5CFinalProject-main%5C%5CFinalProject-main%5C%5Csrc%5C%5Capp%5C%5C(auth)%5C%5Cresend-verification.action.ts%22%2C%5B%7B%22id%22%3A%227f026493396a6d366c923f57787d78a52e9d1129f7%22%2C%22exportedName%22%3A%22resendVerificationAction%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5Czainulaabaidin%5C%5CDownloads%5C%5CFinalProject-main%5C%5CFinalProject-main%5C%5Csrc%5C%5Capp%5C%5C(auth)%5C%5Csso%5C%5Cgoogle%5C%5Ccallback%5C%5Cgoogle-callback.action.ts%22%2C%5B%7B%22id%22%3A%227f92b0e030dc71912a635453af0fee66379d0f4d60%22%2C%22exportedName%22%3A%22googleSSOCallbackAction%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": true
         }
       },
       "layer": {
         "app/(marketing)/page": "action-browser",
         "app/(auth)/sign-up/page": "action-browser",
-        "app/(dashboard)/dashboard/page": "action-browser"
+        "app/(dashboard)/dashboard/page": "action-browser",
+        "app/_not-found/page": "action-browser",
+        "app/(auth)/sso/google/callback/page": "action-browser"
       }
     },
     "7f8b9b05c2d90a17be69661b85b41aaf7a122d6066": {
@@ -63,6 +73,17 @@
       },
       "layer": {
         "app/(dashboard)/dashboard/page": "action-browser"
+      }
+    },
+    "7f92b0e030dc71912a635453af0fee66379d0f4d60": {
+      "workers": {
+        "app/(auth)/sso/google/callback/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Czainulaabaidin%5C%5CDownloads%5C%5CFinalProject-main%5C%5CFinalProject-main%5C%5Csrc%5C%5Capp%5C%5C(auth)%5C%5Cresend-verification.action.ts%22%2C%5B%7B%22id%22%3A%227f026493396a6d366c923f57787d78a52e9d1129f7%22%2C%22exportedName%22%3A%22resendVerificationAction%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5Czainulaabaidin%5C%5CDownloads%5C%5CFinalProject-main%5C%5CFinalProject-main%5C%5Csrc%5C%5Capp%5C%5C(auth)%5C%5Csso%5C%5Cgoogle%5C%5Ccallback%5C%5Cgoogle-callback.action.ts%22%2C%5B%7B%22id%22%3A%227f92b0e030dc71912a635453af0fee66379d0f4d60%22%2C%22exportedName%22%3A%22googleSSOCallbackAction%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": true
+        }
+      },
+      "layer": {
+        "app/(auth)/sso/google/callback/page": "action-browser"
       }
     }
   },

@@ -14,14 +14,13 @@ export function Hero() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-3xl text-center">
           <ShinyButton className="mx-auto mb-6 rounded-full bg-primary/10 text-primary ring-1 ring-inset ring-primary/20">
-            Meet {SITE_NAME} — Your AI Call Agent
+            Meet {SITE_NAME} — Your AI Ad Agent
           </ShinyButton>
-          <h1 className="text-4xl font-bold tracking-tight md:text-6xl">
-            Handle calls automatically with human‑like intelligence
+          <h1 className="text-4xl font-bold tracking-tight text-center md:text-6xl">
+            Ad generation automates the creation of personalized ads using AI
           </h1>
-          <p className="mt-6 text-lg leading-8 text-muted-foreground">
-            {SITE_NAME} answers, routes, books appointments, and captures leads 24/7. Natural
-            voice, real‑time reasoning, and CRM sync out of the box.
+          <p className="mt-6 text-lg leading-8 text-center text-muted-foreground">
+            {SITE_NAME} uses AI to generate ads for your business, saving you time and boosting creativity.
           </p>
           <div className="mt-10 flex flex-wrap items-center justify-center gap-3">
             <Link href="/sign-up">
@@ -44,8 +43,8 @@ export function Hero() {
         {/* Feature highlight cards */}
         <div className="mx-auto mt-16 grid max-w-5xl grid-cols-1 gap-4 sm:grid-cols-2">
           <div className="rounded-xl border bg-card/60 p-5 backdrop-blur">
-            <p className="text-sm font-medium text-muted-foreground">Voice quality</p>
-            <p className="mt-1 text-xl font-semibold">Natural, low‑latency speech</p>
+            <p className="text-sm font-medium text-muted-foreground">AI Ad generation</p>
+            <p className="mt-1 text-xl font-semibold">Quickly create targeted, high-quality ads from minimal input, saving time and boosting creativity</p>
           </div>
           <div className="rounded-xl border bg-card/60 p-5 backdrop-blur">
             <p className="text-sm font-medium text-muted-foreground">Integrations</p>

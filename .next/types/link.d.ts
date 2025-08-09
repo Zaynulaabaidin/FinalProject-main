@@ -29,6 +29,7 @@ declare namespace __next_route_internal_types__ {
     S extends `${string}${SearchOrHash}` ? never : S
 
   type StaticRoutes = 
+    | `/admin`
     | `/forgot-password`
     | `/reset-password`
     | `/sign-in`
@@ -37,7 +38,6 @@ declare namespace __next_route_internal_types__ {
     | `/sso/google/callback`
     | `/team-invite`
     | `/verify-email`
-    | `/admin`
     | `/dashboard`
     | `/dashboard/billing`
     | `/dashboard/marketplace`

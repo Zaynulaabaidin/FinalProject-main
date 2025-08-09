@@ -1,7 +1,7 @@
 import type { Route } from "next"
 
-export const SITE_NAME = "Azadi Call"
-export const SITE_DESCRIPTION = "Azad Call is an AI Call Agent that answers, routes, and automates phone conversations with human‑like voice, real‑time intelligence, and CRM integrations."
+export const SITE_NAME = "Trilent"
+export const SITE_DESCRIPTION = "Trilent is an AI Call Agent that answers, routes, and automates phone conversations with human‑like voice, real‑time intelligence, and CRM integrations."
 export const SITE_URL = process.env.NODE_ENV === "development" ? "http://localhost:3000" : "https://nextjs-saas-template.agenticdev.agency"
 export const GITHUB_REPO_URL = "https://github.com/LubomirGeorgiev/cloudflare-workers-nextjs-saas-template"
 
